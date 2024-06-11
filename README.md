@@ -4,7 +4,7 @@
 This is a project for demonstrating the integration of a ReactJs project using Terraform for EC2 provisioning and Jenkins for CICD. The project is using Terraform for EC2 provisioning using AWS IAM credentials and setting up Jenkins and SonarQube withing the EC2 instance, the CICD pipeline demonstrates multiple stages for security practices and finally deploying the application as a container within the same instance.
 
 ### Architecture
-1. Terraform for EC2 provisioning
+1. Terraform for EC2 provisioning (JENKINS-TF folder)
 2. Jenkins for CICD
 3. SonarQube for static code analysis
 4. Trivy for file scan and image scan
